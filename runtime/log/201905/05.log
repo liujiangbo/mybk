@@ -1,0 +1,1613 @@
+[ 2019-05-05T09:44:14+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.mybk.com/ [运行时间：5.206496s][吞吐率：0.19req/s] [内存消耗：3,015.23kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\work\mybk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/laozhang/index\index.html [ array (
+  0 => 'settings',
+  1 => 'categorys',
+  2 => 'search_model_select',
+  3 => 'seo',
+  4 => 'links',
+  5 => 'recommend_list',
+  6 => 'new_list',
+  7 => 'hot_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]未定义数组索引: avatar[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:186]
+[ error ] [8]未定义数组索引: nickname[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:186]
+
+---------------------------------------------------------------
+[ 2019-05-05T09:44:17+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] www.mybk.com/favicon.ico [运行时间：0.062400s][吞吐率：16.03req/s] [内存消耗：1,309.53kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mybk.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:49:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] www.mybk.com/admin/index/index.html [运行时间：0.161009s][吞吐率：6.21req/s] [内存消耗：2,436.22kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:49:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ log ] www.mybk.com/admin/login/login.html [运行时间：0.485028s][吞吐率：2.06req/s] [内存消耗：2,692.68kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/login_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\wamp\work\mybk\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\work\mybk/application/admin\view\public\login.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:49:32+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ log ] www.mybk.com/captcha.html [运行时间：0.408024s][吞吐率：2.45req/s] [内存消耗：1,334.38kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mybk.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/captcha_html' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp\work\mybk\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:49:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/aa.ico
+[ log ] www.mybk.com/admin/login/aa.ico [运行时间：0.079203s][吞吐率：12.63req/s] [内存消耗：2,495.90kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'aa.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mybk.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/aa_ico' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:49:45+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login.html
+[ log ] www.mybk.com/admin/login/login.html [运行时间：0.140008s][吞吐率：7.14req/s] [内存消耗：2,522.39kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'content-length' => '48',
+  'accept' => '*/*',
+  'origin' => 'http://www.mybk.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mybk.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/login_html' => '',
+  'username' => 'zhouhuihua',
+  'password' => '123456',
+  'captcha' => '2ti8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\wamp\work\mybk\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:49:45+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha?id=0.7998109817361034
+[ log ] www.mybk.com/captcha?id=0.7998109817361034 [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：1,334.25kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mybk.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/captcha' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp\work\mybk\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:49:52+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login.html
+[ log ] www.mybk.com/admin/login/login.html [运行时间：0.218013s][吞吐率：4.59req/s] [内存消耗：2,702.52kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'content-length' => '48',
+  'accept' => '*/*',
+  'origin' => 'http://www.mybk.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mybk.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/login_html' => '',
+  'username' => 'zhouhuihua',
+  'password' => '123456',
+  'captcha' => 'ttmn',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\wamp\work\mybk\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:49:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] www.mybk.com/admin/index/index.html [运行时间：0.189011s][吞吐率：5.29req/s] [内存消耗：2,528.31kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\work\mybk\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\work\mybk/application/admin\view\index\index.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:49:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ log ] www.mybk.com/admin/index/home.html [运行时间：0.222013s][吞吐率：4.50req/s] [内存消耗：2,515.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/home_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Index->home[ D:\wamp\work\mybk\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\work\mybk/application/admin\view\index\home.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead[D:\wamp\work\mybk\runtime\temp\583d9888dc94ddaa045f56bacd59f431.php:25]
+[ error ] [2]mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO)[D:\wamp\work\mybk\runtime\temp\583d9888dc94ddaa045f56bacd59f431.php:25]
+[ error ] [2]mysql_get_server_info(): A link to the server could not be established[D:\wamp\work\mybk\runtime\temp\583d9888dc94ddaa045f56bacd59f431.php:25]
+
+---------------------------------------------------------------
+[ 2019-05-05T09:49:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/aa.ico
+[ log ] www.mybk.com/admin/index/aa.ico [运行时间：0.078202s][吞吐率：12.79req/s] [内存消耗：2,490.94kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'aa.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mybk.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/aa_ico' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:49:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html
+[ log ] www.mybk.com/admin/category/index.html [运行时间：0.227013s][吞吐率：4.41req/s] [内存消耗：2,774.64kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/category/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wamp\work\mybk\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\wamp\work\mybk/application/admin\view\category\list.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+  2 => 'categorys',
+  3 => 'category_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]str_repeat(): Second argument has to be greater than or equal to 0[D:\wamp\work\mybk\application\common\model\Category.php:81]
+[ error ] [8]未定义数组下标: 8[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [8]未定义数组下标: 9[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [8]未定义数组下标: 10[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [8]未定义数组下标: 11[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]str_repeat(): Second argument has to be greater than or equal to 0[D:\wamp\work\mybk\application\common\model\Category.php:81]
+[ error ] [8]未定义数组下标: 13[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [8]未定义数组下标: 14[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]str_repeat(): Second argument has to be greater than or equal to 0[D:\wamp\work\mybk\application\common\model\Category.php:81]
+[ error ] [8]未定义数组下标: 3[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]str_repeat(): Second argument has to be greater than or equal to 0[D:\wamp\work\mybk\application\common\model\Category.php:81]
+[ error ] [8]未定义数组下标: 5[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [8]未定义数组下标: 6[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [8]未定义数组下标: 7[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+
+---------------------------------------------------------------
+[ 2019-05-05T09:49:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/member/index.html
+[ log ] www.mybk.com/admin/member/index.html [运行时间：0.708040s][吞吐率：1.41req/s] [内存消耗：2,966.80kb] [文件加载：61]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/member/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Member->index[ D:\wamp\work\mybk\application\admin\controller\Member.php ]
+[ info ] [ VIEW ] D:\wamp\work\mybk/application/admin\view\member\list.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+  2 => 'members',
+  3 => 'total',
+  4 => 'per_page',
+  5 => 'current_page',
+  6 => 'search',
+  7 => 'order',
+  8 => 'url_params',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: page_size[D:\wamp\work\mybk\application\admin\controller\Member.php:18]
+[ error ] [8]未定义数组索引: search[D:\wamp\work\mybk\application\admin\controller\Member.php:20]
+[ error ] [8]未定义数组索引: order[D:\wamp\work\mybk\application\admin\controller\Member.php:27]
+[ error ] [8]未定义数组索引: query[D:\wamp\work\mybk\application\admin\controller\Member.php:32]
+[ error ] [8]未定义变量: order[D:\wamp\work\mybk\application\admin\controller\Member.php:33]
+[ error ] [8]未定义数组索引: search[D:\wamp\work\mybk\application\admin\controller\Member.php:34]
+[ error ] [8]未定义变量: order[D:\wamp\work\mybk\application\admin\controller\Member.php:34]
+
+---------------------------------------------------------------
+[ 2019-05-05T09:49:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/setting/base/tab/1.html
+[ log ] www.mybk.com/admin/setting/base/tab/1.html [运行时间：0.249015s][吞吐率：4.02req/s] [内存消耗：2,991.43kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting',
+    2 => 'base',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/setting/base/tab/1_html' => '',
+  'tab' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Setting->base[ D:\wamp\work\mybk\application\admin\controller\Setting.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\work\mybk/application/admin\view\setting\base.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+  2 => 'setting',
+  3 => 'model_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 1 for app\common\model\Setting::get_setting(), called in D:\wamp\work\mybk\application\admin\controller\Setting.php on line 28 and defined[D:\wamp\work\mybk\application\common\model\Setting.php:40]
+[ error ] [8]未定义变量: key[D:\wamp\work\mybk\application\common\model\Setting.php:47]
+
+---------------------------------------------------------------
+[ 2019-05-05T09:50:01+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/touming_bg.png
+[ log ] www.mybk.com/static/images/touming_bg.png [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：1,309.71kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'touming_bg.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mybk.com/static/css/global.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/static/images/touming_bg_png' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:50:11+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/upload/upimage.html
+[ log ] www.mybk.com/admin/upload/upimage.html [运行时间：0.206011s][吞吐率：4.85req/s] [内存消耗：2,570.42kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'upload',
+    2 => 'upimage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'content-length' => '653866',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.mybk.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9h1AL8eewbZhKEbE',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/setting/base/tab/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/upload/upimage_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Upload->upimage[ D:\wamp\work\mybk\application\admin\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:50:12+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/setting/base.html
+[ log ] www.mybk.com/admin/setting/base.html [运行时间：0.417024s][吞吐率：2.40req/s] [内存消耗：2,790.31kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting',
+    2 => 'base',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'content-length' => '2341',
+  'accept' => '*/*',
+  'origin' => 'http://www.mybk.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mybk.com/admin/setting/base/tab/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/setting/base_html' => '',
+  'site_name' => 'http://www.mybk.com',
+  'logo' => '/uploads/images/20190505/3f731a1890a5c93820b5c63d863eb754.png',
+  'file' => '',
+  'site_url' => 'http://www.mybk.com/',
+  'search_model' => 
+  array (
+    2 => '2',
+  ),
+  'threshold' => '1',
+  'editor' => 'layedit',
+  'is_excel' => '0',
+  'guest_feedback' => '0',
+  'site_status' => '1',
+  'site_closedreason' => '',
+  'stationmaster_name' => '周惠华',
+  'stationmaster_occupation' => '我还是个学生',
+  'stationmaster_motto' => '好好睡觉',
+  'title_add' => '小惠的个人博客',
+  'keywords' => '个人博客',
+  'description' => '博客，美食，生活',
+  'is_watermark' => '0',
+  'watermark_width' => '500',
+  'watermark_height' => '300',
+  'watermark' => '/uploads/images/20190425/c612596694f9c6ccd63e4c0de9a44365.png',
+  'watermark_locate' => '5',
+  'watermark_alpha' => '100',
+  'index_banner' => '/uploads/images/20190504/c5727037d6ce093426eb6a90f607e172.jpg',
+  'index_banner_bg' => '#393D49',
+  'site_idea1' => '爱生活
+生活的全部意义在于无穷的探索尚未知道的东西，在于不断的增加更多的知识。',
+  'site_idea2' => '爱美食
+对一个吃货来说，世间最美的情话莫过于你吃饱了吗？最优雅的举动莫过于剥好的虾和切成块的牛排。',
+  'site_idea3' => '爱旅游
+在这个光怪陆离的人间，没有谁可以将日子过得行云流水。但那些走过平湖烟雨，岁月山河，历尽劫数、尝遍百味的人，会更加生动而干净。',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Setting->base[ D:\wamp\work\mybk\application\admin\controller\Setting.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 1 for app\common\model\Setting::get_setting(), called in D:\wamp\work\mybk\application\common\model\Setting.php on line 23 and defined[D:\wamp\work\mybk\application\common\model\Setting.php:40]
+[ error ] [8]未定义变量: key[D:\wamp\work\mybk\application\common\model\Setting.php:47]
+
+---------------------------------------------------------------
+[ 2019-05-05T09:50:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/setting/base/tab/1.html
+[ log ] www.mybk.com/admin/setting/base/tab/1.html [运行时间：0.184011s][吞吐率：5.43req/s] [内存消耗：2,991.50kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting',
+    2 => 'base',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/setting/base/tab/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/setting/base/tab/1_html' => '',
+  'tab' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Setting->base[ D:\wamp\work\mybk\application\admin\controller\Setting.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\work\mybk/application/admin\view\setting\base.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+  2 => 'setting',
+  3 => 'model_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 1 for app\common\model\Setting::get_setting(), called in D:\wamp\work\mybk\application\admin\controller\Setting.php on line 28 and defined[D:\wamp\work\mybk\application\common\model\Setting.php:40]
+[ error ] [8]未定义变量: key[D:\wamp\work\mybk\application\common\model\Setting.php:47]
+
+---------------------------------------------------------------
+[ 2019-05-05T09:50:15+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.mybk.com/ [运行时间：0.160009s][吞吐率：6.25req/s] [内存消耗：3,016.11kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\work\mybk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/laozhang/index\index.html [ array (
+  0 => 'settings',
+  1 => 'categorys',
+  2 => 'search_model_select',
+  3 => 'seo',
+  4 => 'links',
+  5 => 'recommend_list',
+  6 => 'new_list',
+  7 => 'hot_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]未定义数组索引: avatar[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:186]
+[ error ] [8]未定义数组索引: nickname[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:186]
+
+---------------------------------------------------------------
+[ 2019-05-05T09:50:24+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.mybk.com/ [运行时间：0.191011s][吞吐率：5.24req/s] [内存消耗：3,016.09kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\work\mybk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/laozhang/index\index.html [ array (
+  0 => 'settings',
+  1 => 'categorys',
+  2 => 'search_model_select',
+  3 => 'seo',
+  4 => 'links',
+  5 => 'recommend_list',
+  6 => 'new_list',
+  7 => 'hot_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]未定义数组索引: avatar[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:186]
+[ error ] [8]未定义数组索引: nickname[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:186]
+
+---------------------------------------------------------------
+[ 2019-05-05T09:51:05+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.mybk.com/ [运行时间：0.178010s][吞吐率：5.62req/s] [内存消耗：3,016.09kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\work\mybk\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/laozhang/index\index.html [ array (
+  0 => 'settings',
+  1 => 'categorys',
+  2 => 'search_model_select',
+  3 => 'seo',
+  4 => 'links',
+  5 => 'recommend_list',
+  6 => 'new_list',
+  7 => 'hot_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:128]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [8]Use of undefined constant image_url - assumed 'image_url'[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:129]
+[ error ] [2]Missing argument 3 for format_datetime(), called in D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php on line 134 and defined[D:\wamp\work\mybk\application\common.php:101]
+[ error ] [8]未定义数组索引: avatar[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:186]
+[ error ] [8]未定义数组索引: nickname[D:\wamp\work\mybk\runtime\temp\dc249e5f79fe156c6fb33e70f1236387.php:186]
+
+---------------------------------------------------------------
+[ 2019-05-05T09:54:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ log ] www.mybk.com/admin/index/home.html [运行时间：0.112007s][吞吐率：8.93req/s] [内存消耗：2,515.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/home_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Index->home[ D:\wamp\work\mybk\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\work\mybk/application/admin\view\index\home.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead[D:\wamp\work\mybk\runtime\temp\583d9888dc94ddaa045f56bacd59f431.php:25]
+[ error ] [2]mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO)[D:\wamp\work\mybk\runtime\temp\583d9888dc94ddaa045f56bacd59f431.php:25]
+[ error ] [2]mysql_get_server_info(): A link to the server could not be established[D:\wamp\work\mybk\runtime\temp\583d9888dc94ddaa045f56bacd59f431.php:25]
+
+---------------------------------------------------------------
+[ 2019-05-05T09:54:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/logout.html
+[ log ] www.mybk.com/admin/login/logout.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,457.87kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'referer' => 'http://www.mybk.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/logout_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Login->logout[ D:\wamp\work\mybk\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:54:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] www.mybk.com/admin/index/index.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,436.31kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:54:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ log ] www.mybk.com/admin/login/login.html [运行时间：0.082004s][吞吐率：12.19req/s] [内存消耗：2,532.81kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/login_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\wamp\work\mybk\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\work\mybk/application/admin\view\public\login.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:54:07+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ log ] www.mybk.com/captcha.html [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：1,333.91kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mybk.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/captcha_html' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp\work\mybk\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:55:54+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login.html
+[ log ] www.mybk.com/admin/login/login.html [运行时间：0.112007s][吞吐率：8.93req/s] [内存消耗：2,702.35kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'content-length' => '48',
+  'accept' => '*/*',
+  'origin' => 'http://www.mybk.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mybk.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/login_html' => '',
+  'username' => 'zhouhuihua',
+  'password' => '123456',
+  'captcha' => 'iwn2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\wamp\work\mybk\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:55:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] www.mybk.com/admin/index/index.html [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：2,528.05kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\work\mybk\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\work\mybk/application/admin\view\index\index.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:55:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/home.html
+[ log ] www.mybk.com/admin/index/home.html [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：2,515.22kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/home_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Index->home[ D:\wamp\work\mybk\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\work\mybk/application/admin\view\index\home.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead[D:\wamp\work\mybk\runtime\temp\583d9888dc94ddaa045f56bacd59f431.php:25]
+[ error ] [2]mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO)[D:\wamp\work\mybk\runtime\temp\583d9888dc94ddaa045f56bacd59f431.php:25]
+[ error ] [2]mysql_get_server_info(): A link to the server could not be established[D:\wamp\work\mybk\runtime\temp\583d9888dc94ddaa045f56bacd59f431.php:25]
+
+---------------------------------------------------------------
+[ 2019-05-05T09:55:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/admin/edit.html
+[ log ] www.mybk.com/admin/admin/edit.html [运行时间：0.193611s][吞吐率：5.16req/s] [内存消耗：2,732.63kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/admin/edit_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ D:\wamp\work\mybk\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] D:\wamp\work\mybk/application/admin\view\admin\edit.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-05-05T09:55:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html
+[ log ] www.mybk.com/admin/category/index.html [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：2,774.40kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\work\mybk\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mybk.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://www.mybk.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cgc2bqk962cevl0159f4r9upi6',
+)
+[ info ] [ PARAM ] array (
+  '/admin/category/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Category->index[ D:\wamp\work\mybk\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\wamp\work\mybk/application/admin\view\category\list.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+  2 => 'categorys',
+  3 => 'category_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]str_repeat(): Second argument has to be greater than or equal to 0[D:\wamp\work\mybk\application\common\model\Category.php:81]
+[ error ] [8]未定义数组下标: 8[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [8]未定义数组下标: 9[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [8]未定义数组下标: 10[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [8]未定义数组下标: 11[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]str_repeat(): Second argument has to be greater than or equal to 0[D:\wamp\work\mybk\application\common\model\Category.php:81]
+[ error ] [8]未定义数组下标: 13[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [8]未定义数组下标: 14[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]str_repeat(): Second argument has to be greater than or equal to 0[D:\wamp\work\mybk\application\common\model\Category.php:81]
+[ error ] [8]未定义数组下标: 3[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]str_repeat(): Second argument has to be greater than or equal to 0[D:\wamp\work\mybk\application\common\model\Category.php:81]
+[ error ] [8]未定义数组下标: 5[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [8]未定义数组下标: 6[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [8]未定义数组下标: 7[D:\wamp\work\mybk\application\common\model\Category.php:79]
+[ error ] [2]Invalid argument supplied for foreach()[D:\wamp\work\mybk\application\common\model\Category.php:79]
+
+---------------------------------------------------------------

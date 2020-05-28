@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>{$seo['title']}</title>
+	<link rel="stylesheet" type="text/css" href="__TEMPLATE__laozhang/static/layui/css/layui.css">
+	<link rel="stylesheet" type="text/css" href="__TEMPLATE__laozhang/static/css/style.css">
+	<script type="text/javascript" src="__TEMPLATE__laozhang/static/layui/layui.js"></script>
+	<script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" data-appid="{$settings['qq_app_id']}" data-redirecturi="http://{$Request.host}{:url('member/other_login')}" charset="utf-8"></script>
+</head>
+<body>
+<form class="layui-form feedback-form">
+<div style="padding-top: 20px;">
+	<div class="layui-form-item" >
+		<div class="layui-input-inline input-custom-width" style="margin-left: 70px;width: 210px;">
+			<input type="text" style="width: 200px;height: 28px;" class="username" name="username" lay-verify="required" placeholder="用户名" autocomplete="off" class="layui-input">
+		</div>
+	</div>
+	<div class="layui-form-item">
+		<div class="layui-input-inline input-custom-width" style="margin-left: 70px;width: 210px;">
+			<input type="password" style="width: 200px;height: 28px;" class="pwd" name="password" lay-verify="required" placeholder="密码" autocomplete="off" class="layui-input">
+		</div>
+	</div>
+	<div class="layui-form-item"  style="padding-bottom: 0px;">
+		<div class="layui-input-inline input-custom-width">
+			<button class="layui-btn input-custom-width zclogin" lay-submit="" lay-filter="login" style="height: 36px;">注册并登陆</button>
+		</div>
+	</div>
+</div>
+</form>
+<script type="text/javascript" src="/template/laozhang/static/js/jquery.min.js"></script>
+<script type="text/javascript">
+layui.use(['form', 'layedit'], function(){
+$(function(){
+	//用户注册并登录
+	$('.zclogin').click(function(){
+		var username = $('.username').val();
+		var pwd = $('.pwd').val();
+		$.ajax({
+			type:"POST",
+			url:'{:url("member/do_other_logins")}',
+			data : {nickname :username,pwd:pwd},
+			success:function(data) {
+				if(data.code == 200){
+					layer.close(loading);
+					layer.msg(data.msg, {icon: 1, time: 1000}, function(){
+						location.reload();//do something
+					});
+				}else{
+					layer.closeAll();
+				}
+			}
+		});
+	});
+})
+});
+</script>
+</body>
+</html>
