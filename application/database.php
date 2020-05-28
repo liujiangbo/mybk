@@ -1,11 +1,13 @@
 <?php
+use think\Env;
+
 return array(
 	'type'   =>'mysql',
-	'hostname'   =>'127.0.0.1',
+	'hostname'   =>Env::get('DATABASE_HOSTNAME'),
 	'hostport'   =>'3306',
-	'database'   =>'mybk',
-	'username'   =>'root',
-	'password'   =>'123456aa',
+	'database'   =>Env::get('DATABASE_NAME'),
+	'username'   =>Env::get('DATABASE_USERNAME'),
+	'password'   =>Env::get('DATABASE_PASSWORD'),
 	'prefix'     =>'lz_',
 	'charset'    => 'utf8',
 	'resultset_type' => 'array',
