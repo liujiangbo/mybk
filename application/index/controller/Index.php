@@ -9,6 +9,11 @@ class Index extends Init
 	
 	function _initialize()
 	{
+        delDir(TEMP_PATH);
+        delDir(CACHE_PATH);
+        model('common/setting')->cache_setting();
+        model('common/category')->cache_models();
+        model('common/category')->cache_category();
 		parent::_initialize();
 		$this->article_model = model('common/article');
 	}
