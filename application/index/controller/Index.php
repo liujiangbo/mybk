@@ -9,6 +9,8 @@ class Index extends Init
 	
 	function _initialize()
 	{
+        $settings = db('setting')->column('key,value');
+        cache('settings', $settings);
 		parent::_initialize();
 		$this->article_model = model('common/article');
 	}
