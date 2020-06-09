@@ -38,13 +38,15 @@ class Setting extends Model
 	 * @return [result]
 	 */
 	public function get_setting($key=''){
-		if(cache('settings')){
-			$settings = cache('settings');
-		}else{
+//		if(cache('settings')){
+//			$settings = cache('settings');
+//		}else{
 			$this->cache_setting();
 			$settings = cache('settings');
-		}
-		if(is_string($key)) return $settings[$key];
+//		}
+		if($key) {
+            return $settings[$key];
+        }
 		return $settings;
 	}
 
