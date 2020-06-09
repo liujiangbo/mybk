@@ -37,7 +37,7 @@ class Setting extends Model
 	 * @param  string 	$key 缓存名称(为空取所有设置)
 	 * @return [result]
 	 */
-	public function get_setting($key){
+	public function get_setting($key=''){
 		if(cache('settings')){
 			$settings = cache('settings');
 		}else{
