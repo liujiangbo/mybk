@@ -9,51 +9,43 @@
 	<script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" data-appid="{$settings['qq_app_id']}" data-redirecturi="http://{$Request.host}{:url('member/other_login')}" charset="utf-8"></script>
 </head>
 <body>
-<form class="layui-form feedback-form">
-<div style="padding-top: 20px;">
-	<div class="layui-form-item" >
-		<div class="layui-input-inline input-custom-width" style="margin-left: 70px;width: 210px;">
-			<input type="text" style="width: 200px;height: 28px;" class="username" name="username" lay-verify="required" placeholder="用户名" autocomplete="off" class="layui-input">
-		</div>
-	</div>
-	<div class="layui-form-item">
-		<div class="layui-input-inline input-custom-width" style="margin-left: 70px;width: 210px;">
-			<input type="password" style="width: 200px;height: 28px;" class="pwd" name="password" lay-verify="required" placeholder="密码" autocomplete="off" class="layui-input">
-		</div>
-	</div>
-	<div class="layui-form-item"  style="padding-bottom: 0px;">
-		<div class="layui-input-inline input-custom-width">
-			<button class="layui-btn input-custom-width zclogin" lay-submit="" lay-filter="login" style="height: 36px;">注册并登陆</button>
-		</div>
-	</div>
-</div>
-</form>
-<script type="text/javascript" src="/template/laozhang/static/js/jquery.min.js"></script>
+<span id="qqLoginBtn"></span>
 <script type="text/javascript">
-layui.use(['form', 'layedit'], function(){
-$(function(){
-	//用户注册并登录
-	$('.zclogin').click(function(){
-		var username = $('.username').val();
-		var pwd = $('.pwd').val();
-		$.ajax({
-			type:"POST",
-			url:'{:url("member/do_other_logins")}',
-			data : {nickname :username,pwd:pwd},
-			success:function(data) {
-				if(data.code == 200){
-					layer.close(loading);
-					layer.msg(data.msg, {icon: 1, time: 1000}, function(){
-						location.reload();//do something
-					});
-				}else{
-					layer.closeAll();
-				}
-			}
-		});
+	layui.use(['layer'], function(){
+		var layer = layui.layer,
+				$ = layui.jquery;
+		var	is_login = QC.Login.check();
+		if(is_login){
+			var access_token = '';
+			var openid = '';
+			QC.Login.getMe(function(openId, accessToken){
+				access_token = accessToken;
+				openid = openId;
+			});
+			var paras = {oauth_consumer_key:'{$settings[qq_app_id]}',access_token:access_token,openid:openid};
+			QC.api('get_user_info', paras).success(function(s){
+				//成功回调，通过s.data获取OpenAPI的返回数据
+				var	param ={openid:openid,nickname:s.data.nickname,avatar:s.data.figureurl_qq_2,sex:s.data.gender};
+				$.post('{:url("member/do_other_login")}',param,function(res){
+					if(res.code == 200){
+						QC.Login.signOut()//注销qq登陆
+						$('#fixbar_avatar',window.parent.document).empty().append('<img src="'+res.data.avatar+'"><div class="fixbar_member_info trans_3">'+res.data.nickname+'<span id="logout_btn">退了</span></div>').show();
+						layer.msg(res.msg, {icon: 1, anim: 6, time: 1000});
+						var index = parent.layer.getFrameIndex(window.name); //先得到当前iframe层的索引
+						parent.layer.close(index); //再执行关闭
+					}else{
+						layer.msg(res.msg, {icon: 2, anim: 6, time: 1000});
+					}
+				});
+
+				//alert("获取用户信息成功！当前用户昵称为："+s.data.nickname);
+			});
+
+		}else{
+			self.location.href='https://graph.qq.com/oauth2.0/authorize?client_id={$settings[qq_app_id]}&response_type=token&scope=all&redirect_uri='+encodeURIComponent(self.location.href);
+		}
 	});
-})
-});
+
 </script>
 </body>
 </html>
